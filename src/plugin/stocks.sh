@@ -6,7 +6,7 @@ plugin_stocks_icon=$(get_tmux_option "@theme_plugin_stocks_icon" "󰝚 ")
 plugin_stocks_accent_color=$(get_tmux_option "@theme_plugin_stocks_accent_color" "blue7")
 plugin_stocks_accent_color_icon=$(get_tmux_option "@theme_plugin_stocks_accent_color_icon" "blue0")
 
-plugin_playerctl_format_string=$(get_tmux_option "@theme_plugin_stocks_format_string" "")
+plugin_stocks_format_string=$(get_tmux_option "@theme_plugin_stocks_format_string" "")
 
 export plugin_stocks_icon plugin_stocks_accent_color plugin_stocks_accent_color_icon
 
