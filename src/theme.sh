@@ -88,6 +88,11 @@ if [ "$theme_disable_plugins" -ne 1 ]; then
 			else
 				plugin_output="#[fg=${PALLETE[white]},bg=${PALLETE[$accent_color]}]#($plugin_script_path)#[none]"
 			fi
+
+            if [ "$plugin" == "stocks" ]; then
+                plugin_output="HELLO"
+            fi
+
 			plugin_output_string=""
 
 			plugin_icon_output="${separator_icon_start}#[fg=${PALLETE[white]},bg=${PALLETE[$accent_color_icon]}]${plugin_icon}${separator_icon_end}"
