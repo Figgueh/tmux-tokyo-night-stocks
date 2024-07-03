@@ -21,7 +21,7 @@ function load_plugin() {
 		playerctl=$(playerctl metadata --format "$plugin_playerctl_format_string")
 		echo "${playerctl}"
 	else
-		echo "Not Playing - HELLLO"
+		echo "Not Playing"
 	fi
 }
 
