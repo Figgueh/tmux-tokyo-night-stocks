@@ -7,7 +7,7 @@ plugin_stocks_icon=$(get_tmux_option "@theme_plugin_stocks_icon" " ")
 plugin_stocks_accent_color=$(get_tmux_option "@theme_plugin_stocks_accent_color" "blue7")
 plugin_stocks_accent_color_icon=$(get_tmux_option "@theme_plugin_stocks_accent_color_icon" "blue0")
 
-plugin_stocks_format=$(get_tmux_option "@theme_plugin_stocks_format" "%D %H:%M:%S")
+plugin_stocks_format=$(get_tmux_option "@theme_plugin_stocks_format" "%S > %P")
 
 function load_plugin() {
     echo "HELLLLOOOOOOO!"
