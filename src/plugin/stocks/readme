@@ -1,0 +1,6 @@
+Deps:
+
+luarocks install luasocket
+luarocks install lua-cjson  # or luarocks install dkjson
+luarocks install luasec
+
